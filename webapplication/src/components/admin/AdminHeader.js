@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import './adminstyle.css' 
+import { Link, Switch, BrowserRouter as Router } from 'react-router-dom'
 export default class AdminHeader extends Component {
   render() {
     return (
@@ -17,9 +18,9 @@ export default class AdminHeader extends Component {
                   <span className="caret" />
                   </button>
                   <ul className="dropdown-menu" aria-labelledby="dropdownMenu1">
-                    <li><a href="#">Edit Infomation</a></li>
-                    <li><a href="#">Change Password</a></li>
-                    <li><a href="#">Add User</a></li>
+                    <li><a >Edit Infomation</a></li>
+                    <li><a >Change Password</a></li>
+                    <li><Link to="/w/Register" >Add User</Link></li>
                   </ul>
                 </div>
               </div>

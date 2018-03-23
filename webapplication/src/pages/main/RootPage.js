@@ -21,7 +21,7 @@ class RootPage extends Component {
         else
         {
             myRedirect= <Redirect to = {{pathname:'/s'}}/>
-        }
+        }   
         return (
             <div>
                 {myRedirect}

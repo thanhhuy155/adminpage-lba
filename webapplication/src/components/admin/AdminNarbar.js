@@ -14,7 +14,7 @@ export default class AdminNarbar extends Component {
                                 <span className="icon-bar" />
                                 <span className="icon-bar" />
                             </button>
-                            <a className="navbar-brand" href="#">AdminLBA</a>
+                            <a className="navbar-brand">AdminLBA</a>
                         </div>
                         <div id="navbar" className="collapse navbar-collapse">
                             <ul className="nav navbar-nav">
@@ -23,12 +23,12 @@ export default class AdminNarbar extends Component {
                                         color: 'white'
                                     }}>Dashboard</a>
                                     </Link></li>
-                                <li><a href="#">Customer</a></li>
-                                <li><a href="#">Shop's Owner</a></li>
-                                <li><a href="#">Statistics</a></li>
+                                <li><a>Customer</a></li>
+                                <li><Link to = "/a/list-admin" >Shop's Owner</Link></li>
+                                <li><a >Statistics</a></li>
                             </ul>
                             <ul className="nav navbar-nav navbar-right">
-                                <li><a href="#">Welcome, Harrison</a></li>
+                                <li><a>Welcome, Harrison</a></li>
                                 <li>
                                     <Link to="/w/Login">
                                         <a style={{

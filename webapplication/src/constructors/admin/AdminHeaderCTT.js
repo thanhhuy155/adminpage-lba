@@ -16,6 +16,4 @@ const mapStyleToProps = (state) => {
   }
 }
 
-
-
 export default connect(mapStyleToProps, null)(AdminHeaderCTT)
